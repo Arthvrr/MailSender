@@ -30,7 +30,7 @@ info@bievre.be
 info@binche.be
 info@blegny.be
 commune@bouillon.be
-info@boussu.be
+environnement@boussu.be
 secretariat@braine-lalleud.be
 info@braine-le-chateau.be
 info@7090.be
@@ -51,7 +51,7 @@ commune@chaudfontaine.be
 info@chaumont-gistoux.be
 info@chievres.be
 info@chimayville.be
-commune@chiny.be
+population@chiny.be
 contact@ciney.be
 info@clavier.be
 accueil@colfontaine.be
@@ -96,9 +96,9 @@ administration@florennes.be
 communication@florenville.be
 secretariat1@villedefontaine.be
 info@fosses-la-ville.be
-acframeries@frameries.be
-secretariatcommunal@frasnes-lez-anvaing.be
-info@commune-froidchapelle.be
+info@frameries.be
+population@frasnes-lez-anvaing.be
+population@commune-froidchapelle.be
 secretariat@gedinne.be
 info@geer.be
 administration@gembloux.be
@@ -121,7 +121,7 @@ communeherbeumont@herbeumont.be
 administration@heron.be
 ville@herstal.be
 accueil@herve.be
-patricia.avena@honnelles.be
+annabelle.fievet@honnelles.be
 commune@hotton.be
 secretariat@houffalize.be
 administration.communale@houyet.be
@@ -144,7 +144,7 @@ info@communeleglise.be
 maison.communale@commune-lens.be
 info@lesbonsvillers.be
 population@lessines.be
-info@leuze-en-hainaut.be
+population@leuze-en-hainaut.be
 administration@libin.be
 contact@libramont.be
 information@liege.be
@@ -162,7 +162,7 @@ info@martelange.be
 nathalie.bolis@meix-devant-virton.be
 dg@commune-merbes-le-chateau.be
 commune@messancy.be
-info@mettet.be
+gregoire.busine@mettet.be
 secretariat@modave.be
 commune@momignies.be
 secretariat.communal@ville.mons.be
@@ -178,7 +178,7 @@ informations@nassogne.be
 commune@neufchateau.be
 info@neupre.be
 administration@nivelles.be
-ohey@ohey.be
+info@ohey.be
 info@olne.be
 administration.communale@onhaye.be
 info@oreye.be

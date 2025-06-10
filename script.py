@@ -44,15 +44,15 @@ def envoyer_email(smtp_server, smtp_port, login, password, subject, body, recipi
         print(f"Une erreur est survenue : {e}")
 
 # Charger les emails et le message
-emails = lire_contenu_fichier("emails.txt").splitlines()  # Liste des emails
-body = lire_contenu_fichier("message.txt")  # Contenu du message
+emails = lire_contenu_fichier("emails.txt").splitlines()
+body = lire_contenu_fichier("message.txt")
 
 # Paramètres d'envoi
-smtp_server = "smtp.gmail.com"  # Serveur SMTP de Gmail
-smtp_port = 587  # Port SMTP
-login = "arthurlouette12@gmail.com"  # Remplacez par votre adresse email
-password = os.getenv('SMTP_PASSWORD')  # Assurez-vous de configurer cette variable dans un fichier .env
-subject = "TEST"  # Ajoutez le sujet de votre email
+smtp_server = "smtp.gmail.com"  #Serveur SMTP de Gmail
+smtp_port = 587  #Port SMTP
+login = "arthurlouette12@gmail.com"
+password = os.getenv('SMTP_PASSWORD')
+subject = "Recherche d'endroit pour un camp baladin juillet 2026" #Objet de l'email
 
 # Envoyer les emails
 if emails and body:
