@@ -3,6 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import os
 from dotenv import load_dotenv
+import sys
 
 # Charger les variables d'environnement
 load_dotenv()
@@ -52,7 +53,12 @@ smtp_server = "smtp.gmail.com"  #Serveur SMTP de Gmail
 smtp_port = 587  #Port SMTP
 login = "arthurlouette12@gmail.com"
 password = os.getenv('SMTP_PASSWORD')
-subject = "Recherche d'endroit pour un camp baladin juillet 2026" #Objet de l'email
+# Vérifie qu'un argument a bien été fourni
+if len(sys.argv) < 2:
+    print("Erreur : vous devez fournir l'objet du mail en paramètre.")
+    print("Exemple : python3 script.py \"objet du mail\"")
+    exit(1)
+subject = sys.argv[1]
 
 # Envoyer les emails
 if emails and body:
